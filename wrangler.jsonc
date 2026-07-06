@@ -1,0 +1,8 @@
+{
+  // Cloudflare Worker config for edgeofthearctic.is (the local hub).
+  // Deploys with the default `npx wrangler deploy` — no custom command needed.
+  "name": "edge-of-the-arctic-info",
+  "compatibility_date": "2026-07-01",
+  "main": "worker/index.js",
+  "assets": { "directory": "./site", "binding": "ASSETS" }
+}
